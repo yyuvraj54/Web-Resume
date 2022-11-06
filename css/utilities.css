@@ -1,0 +1,61 @@
+.button{
+    padding:12px 30px;
+    
+    border: 1px solid white;
+    cursor: pointer;
+}
+.first-heading{
+    color: blue;
+    font-size: 2rem;
+    font-weight: 900;
+}
+.first-paragraph{
+    color: rgb(70, 70, 70);
+    font-weight:600; 
+    
+}
+.headings{
+    color: black;
+    font-weight: 600;
+}
+.paragraph{
+    color: rgb(70, 70, 70);
+    font-weight:400; 
+    
+}
+.portfolio-Meassage-box{
+    padding: 20px 0 20px 0;
+    
+}
+
+.icons{
+    padding: 20px;
+    width: 80px;
+    background-color: transparent;
+}
+.tools-icons{
+    height: 50px;
+    background-color: transparent;
+}
+.button-box{
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+}
+.github-button , .github-button a{
+    background-color: black;
+    text-decoration: none;
+    margin:10px 0;
+    color: white;
+    display: inline-block;
+}
+#Bmax-list-view li{
+    margin-left: 25px;
+}
+#more {display: none;}
+#myBtn{
+    margin-top: 5px;
+    background-color: white;
+    border: 0;
+    padding: 10px;
+}

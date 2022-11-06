@@ -1,0 +1,454 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,800;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    overflow-x: hidden;
+    
+}
+
+.Front-Page-View{
+    width: 100%;
+    background-color: #01313F;
+
+}
+.Navbar{
+    display: flex;
+    padding: 10px;
+    background-color: black;
+}
+.navcon{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+
+.Mainicons{
+    width:60px;
+}
+
+.navcon ul{
+    float: right;
+    line-height:60px;
+}
+.navcon ul li{
+    display: inline-block;
+    
+    text-decoration: none;
+    list-style: none;
+    margin: 0 10px;
+}
+
+.navcon ul li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+
+
+.infromation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+    
+
+}
+.infromation-text{
+    padding: 100px;
+    max-width: 40vw;
+    
+}
+.gifframe{
+    margin: 30px 30px 30px 30px;
+    
+}
+.gifframe img{ 
+    
+    padding: 0px;
+    object-fit: scale-down;
+    width: 100%;
+    
+    
+}
+
+.infromation-text h1{
+    font-weight: 800;
+    color: white;
+    text-align: left;
+    font-size: 3rem;
+    
+    
+}
+
+
+
+.infromation-text p{
+    
+    color: rgb(210, 210, 210);font-weight: 300;
+    font-size: 1rem;
+}
+
+
+
+.description{
+    display: inline-block;
+    margin: auto auto;
+    width: 60%;
+    padding: 40px;
+    color: #00B3DD;
+}
+.readmore-infromation{
+    display: inline-block;
+    margin-top: 10px;
+}
+.readmore-infromation a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* --->>>>>> */
+
+#Profile-Tab{
+    background-color: #F7F9FB;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin: 100px 0 100px 0;
+    width: 80%;
+}
+.profile-Image-Box{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    border: 2px solid white;
+    padding: 50px ;
+
+}
+.profile-Image-Box img{
+    width: 200px;
+}
+
+.about-infromation{
+    width: 50%;
+   
+}
+
+
+.portfolio-minor-infromation{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+
+
+/* ---->>>> Skill Tab */
+#skills{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+.skillMeass{
+    margin: 25px;
+}
+.skillMeassEnd p{
+    
+    width: 60%;
+    display: block;
+    margin: 25px auto;
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: space-around;
+    
+}
+
+.skill-box{
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    margin: 10px;
+ 
+    background-color: white;
+    height: 350px;
+    width:280px
+}
+.weblogo{
+    object-position:center ;
+    padding: 20px;
+    width: 155px;
+    background-color: transparent;
+}
+.skill-box h1{
+    text-align: center;
+    padding: 5px;
+}
+.skill-box p{
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+/* Tools frame*/
+#tools-used{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    width: 100%;
+
+
+}
+
+.tools-box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+.tools-logo{
+    
+    padding: 20px;
+    max-width: 600px;
+    flex-direction: column;
+    display: flex;
+
+    flex-grow: 1;
+    
+    
+}
+.tools-logo p{
+    margin-bottom: 20px;
+}
+
+.tools-logo h1:nth-of-type(2){
+    margin-top: 50px;
+}
+.tools-logo-box{
+    border-radius:20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    /* display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; */
+
+}
+.more-button p{
+    text-align: center;
+   
+}
+
+.tools-logo-box img{
+    
+    margin: 20px;
+    
+}
+
+.toolsInfo{
+    margin: 20px;
+    height: 400px;
+    max-width: 700px;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color: #0b090b;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.toolsInfo p{
+    color: #00B3DD;
+}
+.toolsInfo img{
+    object-fit: scale-down;
+    max-width: 100%;
+        max-height: 100%;
+        display: block;
+    
+}
+
+
+/* -------<>>>>>>Projects-Tab */
+.Projects-tab{
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    height: 100%;
+    position: relative;
+}
+#gitwalk{
+    position: absolute;
+    bottom: 0;
+    top: 10px;
+    right: 20px;
+    height: 450px;   
+}
+
+.tab-infromation{
+    display: inline-block;
+    margin:  10% 10% 3% 10%;
+    max-width: 600px;
+}
+.tab-infromation h1{
+    font-weight:900;
+    font-size: 2.5rem;
+}
+.tab-infromation p:nth-of-type(1){
+    font-weight:500;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+.Main-Project-contaner{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.contaner-box{
+    margin:20px 0;
+
+    /* border-style: none none solid none;
+    border-color: #0b090b;
+     */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 100%;
+    
+}
+.Img-Div-box{
+    
+    
+    margin: 10px;
+    padding: 20px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 20px;
+    text-align: center;
+}
+.Img-Div-box img:nth-of-type(1){
+    height: 20em;
+    width: 100%;
+    object-fit: scale-down;
+    
+    border-radius: 20px;
+    padding: 10px;
+    
+
+}
+.Img-Div-box img::nth-of-type(2){
+    height: 20em;
+    width: 100%;
+    object-fit: scale-down;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+.Labels-Div-box{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+    padding: 30px;
+    max-width: 800px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-radius: 20px;  
+}
+.source{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.Labels-Div-box h1{
+    font-size: 2.5rem;
+}
+.Labels-Div-box p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: white;
+}
+
+
+.labels-Imformation{
+
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 10px;
+}
+.Labels-Div-box img{
+    height: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.Labels-Div-box a{
+    text-decoration: none;
+ 
+}
+
+
+.more-projects{
+    
+    padding: 10% 10% 10% 10%;
+    
+
+}
+
+.more-projects p{
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+
+/* achievement-tab>>>>>>> */
