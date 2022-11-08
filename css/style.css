@@ -282,7 +282,7 @@ body{
 
 .toolsInfo{
     margin: 20px;
-    height: 400px;
+    /* height: 400px; */
     max-width: 700px;
     padding: 20px;
     color: white;
@@ -452,3 +452,119 @@ body{
 
 
 /* achievement-tab>>>>>>> */
+.Achievement-Tab{
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column;
+    height: 100%;
+    margin: 20px 0;
+    position: relative;
+    
+}
+.win-gif{
+    
+    object-fit: scale-down;
+    
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.meassage-achievement{
+    position: absolute;
+    top: 0;
+    background: -webkit-linear-gradient(rgb(47, 81, 90), rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    margin: 10% 10% 0 10%;
+    max-width: 500px;
+    color:white;
+}
+.working-area{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    
+}
+.centreslider{
+    margin: auto auto;
+}
+
+.cardheight{
+    
+    min-height: 490px;
+    border-radius:20px ;
+}
+.Achivement-color{
+    background-color: #EDEDED;
+    /* background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+
+}
+
+.Preicon{
+    background-color: #2F3034;
+}
+
+.Nexticon{
+    background-color: #2F3034;
+}
+
+
+
+ /* Footer ------> */
+ .footer-Tab{
+    background-color:#2F3034;
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    
+    
+    position: relative;
+ }
+ 
+ .footer-back{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    bottom: 300px;
+    
+ }
+ .icons-social-media-div{
+
+    
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.5);
+    
+ }
+ .icons-social-media-div img{
+    padding: 5px;
+    max-height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+ }
+ .footers-meassage{
+    color: white;
+    margin: 10px 10px;
+    padding: 10px;
+    max-width: 500px;
+ }
+ .allright{
+    
+    margin: 0 20px;
+    border-top: 5px solid rgb(77, 77, 77);
+    
+    background-color: #2F3034;
+    text-align: center;
+    color: white;
+    
+
+    
+ }
