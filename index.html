@@ -13,6 +13,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/customCss.css">
     
     
 </head>
@@ -21,14 +22,17 @@
     <section class="Front-Page-View">
         <nav class="Navbar">
             <div class="navcon">
-                <img class="Mainicons" src="images/mainlogo.png" alt="logo">
 
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">projects</a></li>
-                    <li><a href="#">Achivment</a></li>
+                <div class="full-nav-width"><a href="#"><img class="Mainicons" src="images/mainlogo.png" alt="logo"></a>
+                    <a class="navbutton" ><img id="Imgnavbutton" src="icons/menu.png" alt="menu-button"></a>
+    </div>
+                
+                <ul id="Taglist">
+                    <li><a id="hometag" href="#">Home</a></li>
+                    <li><a href="#Profile-Tab">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#Projects-tab">projects</a></li>
+                    <li><a href="#Achievement-page">Achievement</a></li>
                 </ul>
             </div>
             </div>
@@ -42,27 +46,29 @@
 
 
             <div class="infromation-text">
-                <h1>Hello!<br>I am Yuvraj</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque inventore commodi nihil deleniti
-                    minima velit iure ullam quis ratione maxime?</p>
-                <div class="readmore-infromation button">
-                    <a href="#">Explore</a>
+                <h1>Hello!👏🏻<br>I am Yuvraj</h1>
+                <p>A passionate Web Developer , Develop complex scalabe webpages and Always excited to design new faces of web with full of creativity and experiments.</p>
+                <div class="readmore-infromation">
+                    <button type="button" class="glow-on-hover"><a href="#Profile-Tab">Explore</a></button>
                 </div>
             </div>
 
             <div class="description">
-                <h2>Decription</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nisi. Deserunt eos consequuntur ullam
-                    fugiat similique. Eos temporibus illo, quo perferendis quibusdam libero id enim dolore quos
-                    voluptas, magnam eum.</p>
+                <h2>What i do?</h2>
+                <p>I have a great experience in designing and building real life problem solving software from python and java ,I have a sharp knowledge of DSA while practicing it in parallel with development Intrested to become full-stack developer so currently i am mastering my web development to create some more awesome products for my clients. some of my projects and achivements are listed below.</p>
             </div>
 
 
 
         </div>
+       
 
 
     </section>
+    <script src="Javascript/navtoggle.js"></script>
+
+
+
 
     <section id="Profile-Tab">
         <div class="about">
@@ -75,29 +81,32 @@
             <div class="about-infromation">
 
                 <div class="main-about portfolio-Meassage-box">
-                    <h2 class="first-heading">Hi there I'm Yuvraj 🤯!</h2>
-                    <p class="first-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint optio sit,
-                        blanditiis velit quam placeat aspernatur rerum repellat modi vitae magnam doloribus nisi neque
-                        quasi corrupti est deserunt ipsa maxime?</p>
+                    <h2 class="first-heading"><u>Hi there I'm Yuvraj 🤯!</u></h2>
+                    <p class="first-paragraph">Strong hands on my programming and development of Applications and Always Ready to learn and explore while actively seeking for new opportunities. Every day i learn something new from my mistakes which also help me to be motivated through out my development journy.</p>
                 </div>
                 <div class="portfolio-minor-infromation">
                     <div class="main-about portfolio-Meassage-box">
                         <h3 class="headings">Education</h3>
                         <p class="paragraph">JSS ACADEMY OF TECHNICAL EDUCATION, NOIDA <br>Bachelor of Technology -
-                            BTech, Information Technology<br>school: Vishwa Bharti Public School - India </p>
+                            BTech, Information Technology<br><br>School: Vishwa Bharti Public School Noida - PCM with Computer Science  </p>
                     </div>
 
                     <div class="main-about portfolio-Meassage-box">
                         <h3 class="headings">Interest</h3>
-                        <p class="paragraph">AI ML, Blockchain, Argument Reality ,Virtual Reality ,Robotics Process
+                        <p class="paragraph"> Machine learning, Blockchain, Argument Reality ,Virtual Reality ,Robotics Process
                             Automation</p>
                     </div>
 
                     <div class="main-about portfolio-Meassage-box">
-                        <h3 class="headings">heading3</h3>
-                        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit
-                            amet consectetur elit. Soluta, eos?</p>
+                        <h3 class="headings">Contact</h3>
+                        <p class="paragraph">Phone: 8368278705<br>Email: yyuvraj54@gmail.com<br></p>
                     </div>
+
+                    <div class="main-about portfolio-Meassage-box">
+                        <h3 class="headings">Language</h3>
+                        <p class="paragraph">English | Hindi | Sanskrit</p>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -105,42 +114,40 @@
 
     <section id="skills">
         <div class="skillMeass">
-            <h1>Skills</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, officia corporis velit
-                necessitatibus laudantium placeat?</p>
+            <h1><u>Skills</u></h1>
+            <p>These are my some skills that i have learned throughout my progrmming journy! and currently exploring in more new development tools.</p>
         </div>
         <div class="skills-container">
-            <div class="skill-box"><img class="icons" src="icons/AndroidStudio.png" alt="android-logo">
+            <div class="skill-box "><img class="icons" src="icons/AndroidStudio.png" alt="android-logo">
                 <h1>Android Development</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, iste.</p>
+                <p>One of my fastest development tools for building market-leading apps that has been powered by google.</p>
             </div>
             <div class="skill-box"><img class="weblogo" src="icons/webdev.png" alt="web-logo">
                 <h1>Web Development</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, iste.</p>
+                <p>Quality experience with html,css and javascript and preparing to be a MEARN developer.</p>
             </div>
             <div class="skill-box"><img class="icons" src="icons/uxui.png" alt="uxui-logo">
                 <h1>UX/Ui</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, iste.</p>
+                <p>For my each software it is the most important part as it is directly related to my user expirence which to make my user feel ease and comfort.</p>
             </div>
             <div class="skill-box"><img class="icons" src="icons/tkinter.png" alt="tkinter-logo">
                 <h1>Tkinter</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, iste.</p>
+                <p>My powerful and reliable library to give my projects a proffesion GUI look for a comfortable control.</p>
             </div>
             <div class="skill-box"><img class="icons" src="icons/cp.png" alt="cp-logo">
-                <h1>Compataive Progrmming</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, iste.</p>
+                <h1>Competitive Programming</h1>
+                <p>Having a good knowlage of DSA and still learning while i have solved over 200+ question in diffrent CP platform.</p>
             </div>
             <div class="skill-box"><img class="icons" src="icons/ehacking.png" alt="ethical-hacking-logo">
                 <h1>Ethical Hacking</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, iste.</p>
+                <p>Ethical Hacking is one of my intresting subject with practical experience , also i have build application related to it.</p>
             </div>
 
         </div>
         <div class="skillMeassEnd">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim autem dolores sed? Minus, eius! Hic facilis
-                provident ullam, soluta debitis, rerum deleniti reprehenderit consequuntur ratione sequi praesentium
-                temporibus, explicabo quasi. lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Consequuntur, officia corporis velit necessitatibus laudantium placeat?</p>
+            <p>As we know creating a proffesion applicaiton to top to bottom is not a easy task it requires lots of skills and practice with a proper workflow and direction. So these were some of my skills in which i have good hands on experience with years of practice and through these skills i have developed 15+ daily life problem solving application. 
+                While i am still brushing my skills with latest framework and new tools that are trending nowadays.
+                </p>
         </div>
 
 
@@ -149,43 +156,39 @@
             <div class="tools-box">
                 <div class="tools-logo">
                     <h1>Tools</h1>
-                    <p>These are the tools Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illo assumenda
-                        expedita! </p>
+                    <p>These are the tools used by me while buliding a new ideas.</p>
                     <div class="tools-logo-box">
 
-                        <img class="tools-icons" src="icons/camtasia.png" alt="camtasia-logo">
-                        <img class="tools-icons" src="icons/autocad.png" alt="autocad-logo">
-                        <img class="tools-icons" src="icons/firebase.png" alt="firebase-logo">
-                        <img class="tools-icons" src="icons/xd.png" alt="xd-logo">
-                        <img class="tools-icons" src="icons/mysql.png" alt="mysql-logo">
-                        <img class="tools-icons" src="icons/git.png" alt="git-logo">
-                        <img class="tools-icons" src="icons/Bootstrap.png" alt="Bootstrap-logo">
-                        <img class="tools-icons" src="icons/photoshop.png" alt="photoshop-logo">
-                        <img class="tools-icons" src="icons/uno.png" alt="uno-logo">
-                        <img class="tools-icons" src="icons/nodejs.png" alt="nodejs-logo">
-                        <img class="tools-icons" src="icons/github.png" alt="github-logo">
+                        <img class="tools-icons raise" src="icons/camtasia.png" alt="camtasia-logo">
+                        <img class="tools-icons raise" src="icons/autocad.png" alt="autocad-logo">
+                        <img class="tools-icons raise" src="icons/firebase.png" alt="firebase-logo">
+                        <img class="tools-icons raise" src="icons/xd.png" alt="xd-logo">
+                        <img class="tools-icons raise" src="icons/mysql.png" alt="mysql-logo">
+                        <img class="tools-icons raise" src="icons/git.png" alt="git-logo">
+                        <img class="tools-icons raise" src="icons/Bootstrap.png" alt="Bootstrap-logo">
+                        <img class="tools-icons raise" src="icons/photoshop.png" alt="photoshop-logo">
+                        <img class="tools-icons raise" src="icons/uno.png" alt="uno-logo">
+                        <img class="tools-icons raise" src="icons/nodejs.png" alt="nodejs-logo">
+                        <img class="tools-icons raise" src="icons/github.png" alt="github-logo">
 
                     </div>
                     <h1>Languages</h1>
-                    <p>These are the languages Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo illo
-                        assumenda
-                        expedita! </p>
+                    <p>My best programming language is C++ among all these languages.<br>covered all main concepts including <u>OOPS.</u></p>
 
 
                     <div class="tools-logo-box">
 
-                        <img class="tools-icons" src="icons/tkinter.png" alt="python-logo">
-                        <img class="tools-icons" src="icons/c++.png" alt="c++-logo">
-                        <img class="tools-icons" src="icons/javascript.png" alt="javascript-logo">
-                        <img class="tools-icons" src="icons/c.png" alt="c-logo">
-                        <img class="tools-icons" src="icons/java.png" alt="java-logo">
+                        <img class="tools-icons raise" src="icons/tkinter.png" alt="python-logo">
+                        <img class="tools-icons raise" src="icons/c++.png" alt="c++-logo">
+                        <img class="tools-icons raise" src="icons/javascript.png" alt="javascript-logo">
+                        <img class="tools-icons raise" src="icons/c.png" alt="c-logo">
+                        <img class="tools-icons raise" src="icons/java.png" alt="java-logo">
 
                     </div>
                 </div>
                 <div class="toolsInfo">
-                    <h1>Boots work</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ipsum provident inventore
-                        porro eveniet molestiae quam excepturi consequuntur sint vel?</p>
+                    <h1>Tools need?</h1>
+                    <p>Have a intrest in building new and creative software through my skills and experience , and currently learning more new tools to give my application more allegiant look.</p>
                     <img src="images/skillback.gif" alt="skillsback">
                 </div>
             </div>
@@ -197,10 +200,11 @@
 
     <!-- Project -Tab -->
 
-<section class="Projects-tab">
+<section id="Projects-tab">
     <!-- <img id="Project-Backgound" src="images/projectsback.jpeg" alt="project-tab-background"> -->
     <div class="tab-infromation">
-        <h1>Development Projects</h1><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sequi debitis ipsa commodi voluptate eos, officiis, optio fugiat assumenda aspernatur quae vel architecto!</p>
+        <h1><u>Projects</u></h1><p>After learning a new skill it time for me to apply it in real world. By a positive mindset and my hardwork i have created so many software that i still use in my daily life to just get out of the loop to do the same task again and again every day.<br>
+        some of these projects are listed below.</p>
         <img id="gitwalk" src="images/gitwalk.gif" alt="gitwalk-gif">
     </div>
     <div class="Main-Project-contaner">
@@ -225,6 +229,7 @@
 
         </div>
 
+        <div class="divider"></div>
 
         <div class="contaner-box">
 
@@ -263,7 +268,7 @@
 
         </div>
 
-
+        <div class="divider"></div>
 
         <div class="contaner-box">
 
@@ -271,7 +276,8 @@
                 <h1>#3 Assignmento</h1>
                 <p>Design and developed</p>
                 <br>
-                <p>About Assignmento is a python3 software that aims to create coding assignment easily by managing it in ms word files (.docx) in just few seconds</p>
+                <p>Assignmento is a python3 software that aims to create coding assignment easily by managing it in ms word files (.docx) in just few seconds</p>
+                <p>Just by some simple steps can convert written code into graphics and  integrate it with docs.</p>
                 <div class="button button-box"><a href="https://github.com/yyuvraj54/Assignmento"target="_blank">Goto Project</a></div>
             </div>  
             
@@ -283,6 +289,7 @@
             
 
         </div>
+        <div class="divider"></div>
 
         <div class="contaner-box">
             
@@ -297,11 +304,6 @@
                 <p>Eye stocks is a software which helps a users to manage or to Perceiving purchased stock in stock market <br>Eye stock helps you to manage your stock with a gui developed in python using tkinter and yfinance module.</p>
                 <div class="button button-box"><a href="https://github.com/yyuvraj54/Eye-Stocks" target="_blank">Goto Project</a></div>
             </div>  
-            
-            
-     
-            
-            
 
         </div>
 
@@ -317,11 +319,12 @@
 
 
 <!-- Achievement-Tab -->
+<section id="Achievement-page">
 <section class="Achievement-Tab Achivement-color">
     
     <div class="meassage-achievement">
-        <h1>Heading</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, natus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, impedit?</p>
+        <h1><u>ACHIEVEMENT</u></h1>
+        <p>Achievements are the desires that we love to have for. They are our those goals we struggle to achieve.<br>Below are some of my achievements.</p>
         
     </div>
     <img class="win-gif" src="images/win.gif" alt="win-gif">
@@ -361,7 +364,7 @@
                 
                 <div class="card" style="width: 23rem;">
                     <img src="Images/appbuild.png" class="card-img-top" alt="appbuild">
-                    <div class="card-body cardheight"><h1>Blue Card For Annual Day QR Code Digital Entry System</h1><h4>#First time in all Noida-Schools</h4><p class="card-text">Organised Live Streaming of annual day on Youtube (multiple cameras) and Developed an Application (android studio by java programming language) that keeps records of entered parents in the annual day with proper track and data analysis to get rid of double entry or unwanted entry.</p></div>
+                    <div class="card-body cardheight"><h1>Blue Card For Annual Day QR Code Digital Entry System</h1><h4>#First time among all NCR Schools</h4><p class="card-text">Organised Live Streaming of annual day on Youtube (multiple cameras) and Developed an Application (android studio by java programming language) that keeps records of entered parents in the annual day with proper track and data analysis to get rid of double entry or unwanted entry.</p></div>
                   </div>
             
             
@@ -384,11 +387,15 @@
 
     </div>
 </section>
+</section>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
 
- <footer class="footer-Tab">
+<div class="backimageframe">
     <img class="footer-back" src="Images/footer.png" alt="footer-back">
+ <footer class="footer-Tab">
+    
+    
     <div class="icons-social-media-div">
         <a href="https://www.instagram.com/yuvrajyadav9448/" target="_blank"><img src="icons/insta-icon.png" alt="insta-icon"></a>
        <a href="https://github.com/yyuvraj54" target="_blank"> <img src="icons/git-icon.png" alt="git-icon"></a>
@@ -397,16 +404,18 @@
     </div>
     
     <div class="footers-meassage">
-        <h1>Meassage</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum distinctio consequatur voluptate facilis id, temporibus autem animi necessitatibus pariatur! At, eos eveniet assumenda maiores numquam reiciendis accusamus ducimus modi voluptatum.</p>
+        <h1>About Website</h1>
+        <p>This website is design using css and html and some of the functionality is added by javascript , also for a better responsive design i have used 2% of bootstrap.<br>Design and Developed by:<b><i> Yuvraj Singh Yadav </i></b></p>
+        
         <p>Phone: 8368278705</p>
     </div>
 
     <div class="allright">
-        <p>Copyright @Yuvraj Singh Yadav || @ALL RIGHT RESERVED</p>
+        <p>No Copyright @Yuvraj Singh Yadav || @ALL RIGHT RESERVED</p>
         
     </div>
  </footer>
+</div>
 
 
 

@@ -1,11 +1,17 @@
 .button{
     padding:12px 30px;
-    
+    opacity: 0.6;
     border: 1px solid white;
     cursor: pointer;
+    transition: 1s;
 }
+.button:hover {opacity: 1;}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
 .first-heading{
-    color: blue;
+    color:coral;
     font-size: 2rem;
     font-weight: 900;
 }
@@ -58,4 +64,66 @@
     background-color: white;
     border: 0;
     padding: 10px;
+}
+
+
+.divider{
+    height: 10px;
+    width: 100%;
+    margin: 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: transparent;
+}
+
+
+
+
+@media (max-width: 850px)
+
+{   
+    .about-infromation{
+        max-width: 80%;
+    }
+    .full-nav-width{
+        display: block;
+    }
+    .navbutton{
+        display: inline-block;
+        float: right;
+    }
+    .Navbar{
+        
+        opacity: 0.5;
+
+        width: 100%;
+        
+    }
+
+    .navcon ul{
+        display: flex;
+        transition: 1s ease-in-out;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        align-items: center;        
+        top: 80px;
+        left: 0;
+    }
+    .navcon ul li {
+        font-weight: 800;
+        font-size: 25px;
+        margin-bottom: 20px;
+        color: rgb(255, 255, 255);
+        opacity: 1;
+        
+    }
+
+}
+@media (max-width: 1150px){
+    #gitwalk{
+        display: none;
+    }
 }

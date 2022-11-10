@@ -19,22 +19,30 @@ body{
 }
 .Navbar{
     display: flex;
-    padding: 10px;
+    padding: 10px; 
     background-color: black;
+}
+.full-nav-width{
+    display: inline-block;
+    
 }
 .navcon{
     width: 80vw;
     margin: 0 auto;
 }
-
+.navbutton{
+    display: none;
+}
 
 .Mainicons{
     width:60px;
 }
 
 .navcon ul{
+    
     float: right;
     line-height:60px;
+    margin-bottom: 0;
 }
 .navcon ul li{
     display: inline-block;
@@ -43,22 +51,36 @@ body{
     list-style: none;
     margin: 0 10px;
 }
+.navcon ul li a:nth-of-type(1){
+    font-weight: 500;
+    background-color: white;
+    color: #0b090b;
+    border-radius: 2px;
+    padding: 10px;
+    
+}
+#hometag{
+    opacity: 1;
+}
 
 .navcon ul li a{
     color: white;
+    opacity: 0.4;
     text-align: center;
     text-decoration: none;
     list-style: none;
     text-transform: uppercase;
     font-weight: 500;
+    transition: 1s;
 }
-
+.navcon ul li a:hover{opacity: 1.5;}
 
 
 
 .infromation{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     flex-grow: 1;
 
@@ -66,8 +88,8 @@ body{
 
 }
 .infromation-text{
-    padding: 100px;
-    max-width: 40vw;
+    padding: 28px;
+    max-width: 500px;
     
 }
 .gifframe{
@@ -104,9 +126,9 @@ body{
 
 .description{
     display: inline-block;
-    margin: auto auto;
-    width: 60%;
-    padding: 40px;
+    margin: auto 10px;
+    max-width: 850px;
+    padding: 50px;
     color: #00B3DD;
 }
 .readmore-infromation{
@@ -122,7 +144,9 @@ body{
 /* --->>>>>> */
 
 #Profile-Tab{
+    
     background-color: #F7F9FB;
+
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
@@ -155,7 +179,7 @@ body{
 }
 
 .about-infromation{
-    width: 50%;
+    max-width: 50%;
    
 }
 
@@ -171,17 +195,27 @@ body{
 
 /* ---->>>> Skill Tab */
 #skills{
-    margin-top: 100px;
+    
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    margin-bottom: 300px;
+    background-color: #ade0f9;
+background-image: linear-gradient(0deg, #ade0f9 0%, #F6F9FB 100%);
+
+    
 }
+
 .skillMeass{
     margin: 25px;
+}
+.skillMeass h1{
+    font-weight: 900 ;
+}
+.skillMeass p{
+    font-weight: 500 ;
 }
 .skillMeassEnd p{
     
@@ -206,15 +240,27 @@ body{
  
     background-color: white;
     height: 350px;
-    width:280px
+    width:280px;
+    transition: 1s;
+    cursor: pointer;
+   
+}
+.skill-box:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+    background-color: #3EECAC;
+
+
 }
 .weblogo{
     object-position:center ;
     padding: 20px;
-    width: 155px;
+    width: 123px;
     background-color: transparent;
 }
 .skill-box h1{
+    font-weight: 700;
+    font-size: 30px;
     text-align: center;
     padding: 5px;
 }
@@ -309,8 +355,8 @@ body{
 
 
 /* -------<>>>>>>Projects-Tab */
-.Projects-tab{
-    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+#Projects-tab{
+    background-image: linear-gradient(to top, #EDEDED 0%, #ace0f9 100%);
     height: 100%;
     position: relative;
 }
@@ -455,10 +501,10 @@ body{
 .Achievement-Tab{
     display: flex;
     justify-content: center;
-    
+    margin-bottom: 400px;
     flex-direction: column;
     height: 100%;
-    margin: 20px 0;
+    
     position: relative;
     
 }
@@ -499,7 +545,9 @@ body{
 }
 .Achivement-color{
     background-color: #EDEDED;
-    /* background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+    
+background-image: linear-gradient(0deg, #ffffff 0%, #ededed 18%);
+
 
 }
 
@@ -516,7 +564,6 @@ body{
  /* Footer ------> */
  .footer-Tab{
     background-color:#2F3034;
-    margin-top: 200px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -527,18 +574,28 @@ body{
     
     position: relative;
  }
+ .backimageframe{
+    
+  background-color: transparent;
+ }
+
+
  
  .footer-back{
-    position: absolute;
+    /* position: absolute;
     width: 100%;
     z-index: -1;
+    margin-bottom: 5%;
     bottom: 300px;
-    
+     */
+
+     width: 100%;
+
  }
  .icons-social-media-div{
 
     
-    margin: 10px 10px;
+    margin: 10px 30px;
     padding: 10px;
     border-radius: 20px;
     box-shadow: 0 3px 10px rgba(255, 255, 255, 0.5);
@@ -548,10 +605,16 @@ body{
     padding: 5px;
     max-height: 40px;
     margin-left: 20px;
+    opacity: 0.5;
     cursor: pointer;
+    transition: 1s;
+ }
+ .icons-social-media-div img:hover{
+    opacity: 1.5;
+    
  }
  .footers-meassage{
-    color: white;
+    color: rgb(143, 143, 143);
     margin: 10px 10px;
     padding: 10px;
     max-width: 500px;
