@@ -63,9 +63,11 @@
 .raise:hover,
 .raise:focus {
     transition: 1s;
-    background-color: transparent;
-  box-shadow: 0 0.5em 0.5em -0.4em black
-  ;
-  transform: translateY(-0.25em);
+    /* background-color: transparent;
+     box-shadow: 0 0.5em 0.5em -0.4em black; */
+    /* color: #ffee10;  */
+  /* box-shadow: 0 0 5px #ffee10; */
+  text-shadow: 0 0 5px #ffee10;
+  transform: translateY(-0.35em) rotate(360deg);
 }
   

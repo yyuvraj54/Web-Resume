@@ -20,7 +20,9 @@ body{
 .Navbar{
     display: flex;
     padding: 10px; 
-    background-color: black;
+    /* background-color: black; */
+    background-image: linear-gradient(60deg,#3d3e40 0%, #000000 100% );
+  
 }
 .full-nav-width{
     display: inline-block;
@@ -229,6 +231,7 @@ background-image: linear-gradient(0deg, #ade0f9 0%, #F6F9FB 100%);
     align-items: center;
     flex-wrap: wrap;
     flex-grow: 1;
+    align-content: space-around;
     justify-content: space-around;
     
 }
