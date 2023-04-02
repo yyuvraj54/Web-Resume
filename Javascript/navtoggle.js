@@ -1,6 +1,6 @@
 
 
-console.log("print")
+
 const buttonpress= ()=>{
     console.log("Button Pressed");
 }

@@ -476,10 +476,13 @@ background-image: linear-gradient(0deg, #ade0f9 0%, #F6F9FB 100%);
     margin: 20px 0;
     padding: 10px;
 }
-.Labels-Div-box img{
+
+
+.smalllogo{
     height: 20px;
     margin-top: 5px;
     margin-right: 10px;
+
 }
 .Labels-Div-box a{
     text-decoration: none;
@@ -634,3 +637,80 @@ background-image: linear-gradient(0deg, #ffffff 0%, #ededed 18%);
 
     
  }
+ .project-Logo-image {
+      height: 50px;
+
+    
+ }
+
+
+
+ .boxfortopproject{
+    margin: 10px;
+    padding: 20px;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: transparent;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 20px;
+    text-align: center;
+    overflow:hidden;    
+ }
+
+ .relativediv{
+    
+    perspective: 10px;
+    max-width: 800px;
+    transform-style: preserve-3d;
+    
+    
+}
+.smallsizeImg1, .smallsizeImg2,.smallsizeImg3{
+    max-height: 25em;
+    border-radius: 15px;
+    object-fit: scale-down;
+    border: 5px solid #3f3f3f ;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.773);
+    
+}
+.smallsizeImg1{
+    position: relative;
+}
+.smallsizeImg2{
+    position: relative;
+    transform: translateZ(-20px) scale(2.5);
+    left: -18em;
+    top: 0;
+
+    
+}
+.smallsizeImg3{
+    position: relative;
+    transform: translateZ(-20px) scale(2.5);
+    left: 18em;
+    top: 0;
+
+}
+@media (max-width: 750px)
+
+{
+ 
+
+    .smallsizeImg1{
+        position: relative;
+    }
+    .smallsizeImg2{
+        position: absolute;
+        transform: none;
+
+    }
+    .smallsizeImg3{
+        position: absolute;
+        transform: none;
+
+    }
+
+    
+}
