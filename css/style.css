@@ -667,13 +667,17 @@ background-image: linear-gradient(0deg, #ffffff 0%, #ededed 18%);
     
     
 }
-.smallsizeImg1, .smallsizeImg2,.smallsizeImg3{
+.smallsizeImg1, .smallsizeImg2,.smallsizeImg3,.bmaxappgif{
     max-height: 25em;
     border-radius: 15px;
     object-fit: scale-down;
     border: 5px solid #3f3f3f ;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.773);
     
+}
+.bmaxappgif{
+    width: fit-content !important;
+    padding: 0px !important;
 }
 .smallsizeImg1{
     position: relative;
