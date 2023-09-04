@@ -44,6 +44,13 @@
     height: 50px;
     background-color: transparent;
 }
+
+.ch-icon:hover  {
+    transform: scale(1.5);
+    transition: transform 1.3s ease;
+    content: url('../icons/blacktwi.png'); /* Replace 'new-image.jpg' with your hover image */
+    }
+
 .button-box{
     background-color: white;
     text-align: center;
